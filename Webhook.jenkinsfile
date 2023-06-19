@@ -12,5 +12,10 @@ pipeline{
                 sh "echo TEST is success"
             }
         }
+  stage ('DEPLOY'){
+            steps{
+                sh "echo DEPLOY is success"
+            }
+        }
     }
 }
